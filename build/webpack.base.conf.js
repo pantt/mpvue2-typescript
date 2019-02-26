@@ -26,6 +26,8 @@ function getEntry (rootSrc) {
 
 const appEntry = { app: resolve('./src/main.ts') }
 const pagesEntry = getEntry(resolve('./src'), 'pages/**/main.ts')
+//分包A
+//const subpackagePagesEntry = getEntry(resolve('./src'), '/packageA/pages/**/main.ts')
 const entry = Object.assign({}, appEntry, pagesEntry)
 
 let baseWebpackConfig = {
@@ -46,7 +48,8 @@ let baseWebpackConfig = {
     extensions: ['.js', '.vue', '.json','.ts'],
     alias: {
       'vue': 'mpvue',
-      '@': resolve('src')
+      '@': resolve('src'),
+      'debug': resolve('src/utils/debug'),
     },
     symlinks: false,
     aliasFields: ['mpvue', 'weapp', 'browser'],
@@ -54,15 +57,15 @@ let baseWebpackConfig = {
   },
   module: {
     rules: [
-      {
-        test: /\.(js|vue)$/,
-        loader: 'eslint-loader',
-        enforce: 'pre',
-        include: [resolve('src'), resolve('test')],
-        options: {
-          formatter: require('eslint-friendly-formatter')
-        }
-      },
+      // {
+      //   test: /\.(js|vue)$/,
+      //   loader: 'eslint-loader',
+      //   enforce: 'pre',
+      //   include: [resolve('src'), resolve('test')],
+      //   options: {
+      //     formatter: require('eslint-friendly-formatter')
+      //   }
+      // },
       {
         test: /\.vue$/,
         loader: 'mpvue-loader',
