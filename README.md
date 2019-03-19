@@ -2,14 +2,17 @@
 
 > A Mpvue2+typescript project
 
-增加了iview weapp组件库
-
-增加了axios封装
-
 详细部署步骤及小程序相关资料见Wiki
 
 https://github.com/pantt/mpvue2-typescript/wiki/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E6%A1%86%E6%9E%B6%E6%A8%A1%E6%9D%BF%E9%83%A8%E7%BD%B2%EF%BC%9Ampvue2.x-typescript-webpack3.x
 
+1.增加了iview weapp组件库
+
+2.增加了axios封装：详细步骤文档说明见wiki：
+
+https://github.com/pantt/mpvue2-typescript/wiki/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8Fmpvue%E4%B8%AD%E5%B0%81%E8%A3%85axios(js%E6%88%96ts%E9%80%82%E7%94%A8)
+
+其他资源文件见wiki
 
 wiki里面有详细说明
 
