@@ -3,6 +3,7 @@
 > A Mpvue2+typescript project
 
 增加了iview weapp组件库
+
 增加了axios封装
 
 详细部署步骤及小程序相关资料见Wiki
