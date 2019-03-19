@@ -6,6 +6,10 @@
 增加了axios封装
 
 详细部署步骤及小程序相关资料见Wiki
+
+https://github.com/pantt/mpvue2-typescript/wiki/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E6%A1%86%E6%9E%B6%E6%A8%A1%E6%9D%BF%E9%83%A8%E7%BD%B2%EF%BC%9Ampvue2.x-typescript-webpack3.x
+
+
 wiki里面有详细说明
 
 欢迎关注我的博客：https://blog.csdn.net/Vanilla1119
