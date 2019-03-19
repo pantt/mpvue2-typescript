@@ -6,8 +6,8 @@
     <card text="card component"></card>
     <comp-b text="card component"></comp-b>
      <a href="../logs/main" class="home">点击去往logs界面</a>
+    <a href="../counter/main" class="home">去往vuex</a>
     <!-- <a :href="AppUrls.COUNTER" class="home">去往vuex</a> -->
-    <a :href="AppUrls.COUNTER" class="home">去往vuex</a>
   </div>
 </template>
 <!--必须指定为ts-->

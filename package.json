@@ -28,6 +28,7 @@
     "@types/weixin-app": "^2.2.24",
     "awesome-typescript-loader": "4.0.1",
     "mpvue": "^2.0.0",
+    "axios": "^0.18.0",
     "ts-loader": "3.1.1",
     "typescript": "^3.3.3333",
     "vue": "^2.6.7",
